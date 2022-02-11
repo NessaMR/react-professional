@@ -9,17 +9,25 @@ export default {
 };
 
 export const usage = () => (
-    <Hero title="Ganhe sua liberdade de ir e vir" image={BgGalaxy}>
-      <p> A auto escola lider em aprovação </p>
-    </Hero>
+  <Hero title="O essencial é invisível aos olhos." image={BgGalaxy}>
+    <p> A auto escola lider em aprovação </p>
+  </Hero>
 );
 
 export const withList = () => (
-    <Hero title="Ganhe sua liberdade de ir e vir" image={BgGalaxy}>
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      </ul>
-    </Hero>
+  <Hero
+    title={
+      <span>
+        O essencial é <strong>invisível</strong>
+        <br /> aos olhos.
+      </span>
+    }
+    image={BgGalaxy}
+  >
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    </ul>
+  </Hero>
 );
