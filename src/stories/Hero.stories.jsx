@@ -1,7 +1,7 @@
 import React from "react";
 
 import Hero from "../components/Hero";
-import BgGalaxy from "./assets/galaxy.jpg"
+import BgGalaxy from "./assets/galaxy.jpg";
 
 export default {
   title: "Hero",
@@ -9,17 +9,17 @@ export default {
 };
 
 export const usage = () => (
-  <Hero title="Ganhe sua liberdade de ir e vir" image={BgGalaxy}>
-    <p> A auto escola lider em aprovação </p>
-  </Hero>
+    <Hero title="Ganhe sua liberdade de ir e vir" image={BgGalaxy}>
+      <p> A auto escola lider em aprovação </p>
+    </Hero>
 );
 
 export const withList = () => (
-  <Hero title="Ganhe sua liberdade de ir e vir"  image={BgGalaxy}>
-    <ul>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-    </ul>
-  </Hero>
+    <Hero title="Ganhe sua liberdade de ir e vir" image={BgGalaxy}>
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      </ul>
+    </Hero>
 );
