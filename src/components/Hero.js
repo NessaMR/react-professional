@@ -1,5 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
+import PropTypes from 'prop-types';
 import { BreakpointSize, breakAt } from "./Breakpoints";
 
 const Root = styled.div`
@@ -61,5 +62,11 @@ const Hero = ({ image, title, children }) => (
     </Container>
   </Root>
 );
+
+Hero.propTypes = {
+  image: PropTypes.string,
+  title: PropTypes.string,
+  children: PropTypes.node,
+}
 
 export default Hero;
