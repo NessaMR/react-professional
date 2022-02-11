@@ -1,9 +1,9 @@
 import React from "react";
 
-import Hero from "../components/Hero";
-import Heading from "../components/Heading";
+import Hero from "./Hero";
+import Heading from "./Heading";
 
-import Background from "./assets/nature.jpg";
+import Background from "../stories/assets/nature.jpg";
 
 export default {
   title: "Hero",
@@ -11,7 +11,7 @@ export default {
 };
 
 export const usage = () => (
-  <Hero image={BgGalaxy}>
+  <Hero image={Background}>
     <h1> O essencial é invisível aos olhos. </h1>
     <p> A auto escola lider em aprovação </p>
   </Hero>

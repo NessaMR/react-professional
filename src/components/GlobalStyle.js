@@ -41,14 +41,14 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h2{
-        font-size: 2rem;
+        font-size: 2.2rem;
 
         ${breakAt(BreakpointSize.lg)} {
             font-size: 3.125rem
         }
     }
     h3{
-        font-size: 2.5rem;
+        font-size: 1.9rem;
 
         ${breakAt(BreakpointSize.lg)} {
             font-size: 2.5rem
