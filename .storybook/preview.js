@@ -59,6 +59,7 @@ addParameters({
   viewport: {
     viewports,
   },
+  categoryOrder: ['Introduction', 'Components']
 });
 
 export const parameters = {

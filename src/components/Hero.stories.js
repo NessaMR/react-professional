@@ -6,7 +6,7 @@ import Heading from "./Heading";
 import Background from "../stories/assets/nature.jpg";
 
 export default {
-  title: "Hero",
+  title: "Components/Hero",
   component: Hero,
 };
 
